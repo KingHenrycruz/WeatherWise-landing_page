@@ -1,0 +1,79 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #282c34;
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #282c34;
+}
+
+.logo {
+    font-family: 'Lobster', sans-serif;
+    font-size: 2rem;
+    color: #61dafb;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+nav ul li a:hover {
+    opacity: 1;
+}
+
+.section {
+    padding: 2rem;
+}
+
+.feature {
+    margin-bottom: 2rem;
+}
+
+.feature img {
+    max-width: 100%;
+    height: auto;
+}
+
+.team-members {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.member {
+    text-align: center;
+}
+
+.github-link {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #282c34;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
